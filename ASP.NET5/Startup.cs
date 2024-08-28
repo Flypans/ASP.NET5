@@ -1,6 +1,7 @@
 using ASP.NET5.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
@@ -61,10 +62,16 @@ namespace ASP.NET5
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-                endpoints.MapRazorPages();
+                /*
+                                endpoints.MapControllerRoute(
+                                    name: "default",
+                                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                                endpoints.MapRazorPages();
+                */
+                endpoints.MapGet("/", async context =>
+                {
+                    await context.Response.WriteAsync("Hello World");
+                });
             });
         }
     }
