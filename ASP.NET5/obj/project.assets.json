@@ -1652,6 +1652,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "ASP.NET5.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ASP.NET5.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ASP.NET5.Models.dll": {}
+        }
       }
     }
   },
@@ -6129,10 +6139,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "ASP.NET5.Models/1.0.0": {
+      "type": "project",
+      "path": "../ASP.NET5.Models/ASP.NET5.Models.csproj",
+      "msbuildProject": "../ASP.NET5.Models/ASP.NET5.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "ASP.NET5.Models >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.17",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.17",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.17",
@@ -6166,7 +6182,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\dev\\ASP.NET5\\ASP.NET5.Models\\ASP.NET5.Models.csproj": {
+              "projectPath": "C:\\dev\\ASP.NET5\\ASP.NET5.Models\\ASP.NET5.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

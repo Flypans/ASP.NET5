@@ -13,4 +13,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ASP.NET5.Models\ASP.NET5.Models.csproj" />
+  </ItemGroup>
+
 </Project>
