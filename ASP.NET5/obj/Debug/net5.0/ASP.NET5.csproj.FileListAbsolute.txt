@@ -85,3 +85,4 @@ C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\ASP.NET5.genruntimeconfig.cache
 C:\dev\ASP.NET5\ASP.NET5\bin\Debug\net5.0\ASP.NET5.Models.dll
 C:\dev\ASP.NET5\ASP.NET5\bin\Debug\net5.0\ASP.NET5.Models.pdb
 C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\ASP.NET5.csproj.AssemblyReference.cache
+C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\Razor\Views\Demo\Index.cshtml.g.cs
