@@ -35,7 +35,7 @@ namespace ASP.NET5
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddControllersWithViews();
+            services.AddControllersWithViews(); //MVC Pattern
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -68,6 +68,9 @@ namespace ASP.NET5
                                     pattern: "{controller=Home}/{action=Index}/{id?}");
                                 endpoints.MapRazorPages();
                 */
+                //MVC Pattern
+                endpoints.MapDefaultControllerRoute();
+
                 endpoints.MapGet("/", async context =>
                 {
                     //await context.Response.WriteAsync("Hello World");
