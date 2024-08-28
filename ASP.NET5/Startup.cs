@@ -1,4 +1,4 @@
-using ASP.NET5.Data;
+﻿using ASP.NET5.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -70,7 +70,10 @@ namespace ASP.NET5
                 */
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World");
+                    //await context.Response.WriteAsync("Hello World");
+
+                    context.Response.Headers["Content-Type"] = "text/html; charset=utf-8";
+                    await context.Response.WriteAsync("Schönen Tag!");
                 });
             });
         }
