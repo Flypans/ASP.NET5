@@ -54,8 +54,10 @@ namespace ASP.NET5
             }
             app.UseHttpsRedirection();
 
+            //Middleware
             app.UseDefaultFiles(); //index.html, default.html, ...
             app.UseStaticFiles(); // HTML, CSS, JavaScript, ...
+            app.UseStatusCodePages();
 
             app.UseRouting();
 
