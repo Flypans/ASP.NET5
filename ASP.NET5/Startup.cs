@@ -53,7 +53,9 @@ namespace ASP.NET5
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
+
+            app.UseDefaultFiles(); //index.html, default.html, ...
+            app.UseStaticFiles(); // HTML, CSS, JavaScript, ...
 
             app.UseRouting();
 
@@ -62,11 +64,11 @@ namespace ASP.NET5
 
             app.UseEndpoints(endpoints =>
             {
-                /*
-                                endpoints.MapControllerRoute(
-                                    name: "default",
-                                    pattern: "{controller=Home}/{action=Index}/{id?}");
-                                endpoints.MapRazorPages();
+                /*                
+                                                endpoints.MapControllerRoute(
+                                                    name: "default",
+                                                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                                                endpoints.MapRazorPages();
                 */
                 //MVC Pattern
                 endpoints.MapDefaultControllerRoute();
