@@ -6,7 +6,6 @@ C:\dev\ASP.NET5\ASP.NET5\bin\Debug\net5.0\ASP.NET5.deps.json
 C:\dev\ASP.NET5\ASP.NET5\bin\Debug\net5.0\ASP.NET5.runtimeconfig.json
 C:\dev\ASP.NET5\ASP.NET5\bin\Debug\net5.0\ASP.NET5.runtimeconfig.dev.json
 C:\dev\ASP.NET5\ASP.NET5\bin\Debug\net5.0\ASP.NET5.dll
-C:\dev\ASP.NET5\ASP.NET5\bin\Debug\net5.0\ref\ASP.NET5.dll
 C:\dev\ASP.NET5\ASP.NET5\bin\Debug\net5.0\ASP.NET5.pdb
 C:\dev\ASP.NET5\ASP.NET5\bin\Debug\net5.0\ASP.NET5.Views.dll
 C:\dev\ASP.NET5\ASP.NET5\bin\Debug\net5.0\ASP.NET5.Views.pdb
@@ -77,7 +76,6 @@ C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\ASP.NET5.RazorTargetAssemblyInfo.cache
 C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\ASP.NET5.RazorTargetAssemblyInfo.cs
 C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\ASP.NET5.Views.pdb
-C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\ASP.NET5.csproj.CopyComplete
 C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\ASP.NET5.dll
 C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\ref\ASP.NET5.dll
 C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\ASP.NET5.pdb
@@ -86,3 +84,11 @@ C:\dev\ASP.NET5\ASP.NET5\bin\Debug\net5.0\ASP.NET5.Models.dll
 C:\dev\ASP.NET5\ASP.NET5\bin\Debug\net5.0\ASP.NET5.Models.pdb
 C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\ASP.NET5.csproj.AssemblyReference.cache
 C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\Razor\Views\Demo\Index.cshtml.g.cs
+C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\ASP.NET5.sourcelink.json
+C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\staticwebassets\ASP.NET5.StaticWebAssets.Pack.cache
+C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\staticwebassets\msbuild.ASP.NET5.Microsoft.AspNetCore.StaticWebAssets.props
+C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\staticwebassets\msbuild.build.ASP.NET5.props
+C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.ASP.NET5.props
+C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.ASP.NET5.props
+C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\ASP.NET5.csproj.Up2Date
+C:\dev\ASP.NET5\ASP.NET5\obj\Debug\net5.0\refint\ASP.NET5.dll

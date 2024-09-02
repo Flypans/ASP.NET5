@@ -55,9 +55,11 @@ namespace ASP.NET5
             app.UseHttpsRedirection();
 
             //Middleware
+/*
             app.UseDefaultFiles(); //index.html, default.html, ...
             app.UseStaticFiles(); // HTML, CSS, JavaScript, ...
-            app.UseStatusCodePages();
+*/
+            app.UseStatusCodePages();// Error status
 
             app.UseRouting();
 
@@ -66,22 +68,24 @@ namespace ASP.NET5
 
             app.UseEndpoints(endpoints =>
             {
+
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
+
                 /*                
-                                                endpoints.MapControllerRoute(
-                                                    name: "default",
-                                                    pattern: "{controller=Home}/{action=Index}/{id?}");
-                                                endpoints.MapRazorPages();
+                                //MVC Pattern
+                                endpoints.MapDefaultControllerRoute();
+
+                                endpoints.MapGet("/", async context =>
+                                {
+                                    //await context.Response.WriteAsync("Hello World");
+
+                                    context.Response.Headers["Content-Type"] = "text/html; charset=utf-8";
+                                    await context.Response.WriteAsync("Schönen Tag!");
+                                });
                 */
-                //MVC Pattern
-                endpoints.MapDefaultControllerRoute();
-
-                endpoints.MapGet("/", async context =>
-                {
-                    //await context.Response.WriteAsync("Hello World");
-
-                    context.Response.Headers["Content-Type"] = "text/html; charset=utf-8";
-                    await context.Response.WriteAsync("Schönen Tag!");
-                });
             });
         }
     }
